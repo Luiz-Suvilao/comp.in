@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Comp.in | Login</title>
+    <link rel="icon" href="/assets/images/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <main>
+        <section class="container__login">
+            <img class="logo" src="assets/images/logo.svg" alt="Logo" />
+            <div class="wrapper">
+                <div class="container__login--box">
+                    <div class="container__login--header-container">
+                        <div class="container__login--header">
+                            <img src="assets/images/log-in.svg" alt="Ícone de login" />
+                            <h1> Faça seu login </h1>
+                        </div>
+
+                        <span class="container__login--subtitle"> Entre com suas informações de cadastro. </span>
+                    </div>
+
+                    <div class="container__login--container">
+                        <label for="email"> E-mail </label>
+
+                        <div class="container__login--wrapper-input">
+                            <img class="mail-icon" src="assets/images/mail.svg" alt="Ícone de e-mail" />
+                            <input autofocus placeholder="Digite seu email" type="text" name="email" id="email" />
+                        </div>
+                    </div>
+
+                    <div class="container__login--container">
+                        <label for="password"> Senha </label>
+
+                        <div class="container__login--wrapper-input">
+                            <img class="pass-icon" src="assets/images/lock.svg" alt="Ícone de cadeado" />
+                            <input placeholder="Digite sua senha" type="password" name="password" id="password" />
+                        </div>
+                    </div>
+
+                    <div class="container__login--remember-forget">
+                        <label class="container">
+                            <input type="checkbox" checked="checked">
+                            Lembre-me
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <a href="#">Esqueci minha senha</a>
+                    </div>
+
+                    <button type="submit" class="container__login--button">Entrar</button>
+
+                    <span class="container__login--register">
+                    Não tem uma conta? <a href="#">Registre-se</a>
+                </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg"></section>
+    </main>
+
+    <script src="script/login.js"></script>
+</body>
+</html>
